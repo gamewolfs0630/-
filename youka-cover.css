@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, input, img, p{
+	padding:0;
+	margin:0;
+}
+body{
+	font-family:Arial, "微軟正黑體 Light";
+	position:relative;
+}
+body, html{
+	width:100%;
+	height:100%;
+}
+
+img{border:0;}
+
+a{
+	text-decoration:none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+ul{list-style:none;}
+
+
+#header{
+	margin:auto;
+	width:1920px;
+	height:100%;
+}
+
+.bannerfirst{
+	background-position:center;
+	background-image:url(images/yoka-cover_01.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	width:1920px;
+	height:1084px;
+}
+.bannersecond{
+	background-position:center;
+	background-image:url(images/yoka-cover_02.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	width:1920px;
+	height:1081px;
+}
+
+.bannerthird{
+	background-position:center;
+	background-image:url(images/yoka-cover_03.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	width:1920px;
+	height:1054px;
+}
+
+.bannerfourth{
+	background-position:center;
+	background-image:url(images/yoka-cover_04.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	width:1920px;
+	height:1171px;
+}
+
+/*#footer{
+	background-image:url(images/yoka-cover_05.jpg);
+	width:1920px;
+	height:158px;
+	background-position:top;
+}*/
+	
